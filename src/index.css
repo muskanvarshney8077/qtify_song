@@ -1,0 +1,24 @@
+:root {
+  --color-primary: #34c94b;
+  --color-black: #121212;
+  --color-white: #fff;
+}
+body {
+  background-color: var(--color-black);
+  font-family: "poppins", sans-serif;
+  line-height: 1.5;
+  color: var(--color-white);
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
