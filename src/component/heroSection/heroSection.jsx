@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../heroSection/heroSection.module.css";
-import HeroSectionLogo from "../../../assets/HeroSectionLogo.png";
+import styles from "./heroSection.module.css";
+import HeroSectionLogo from "../../assets/HeroSectionLogo.png";
 
 const heroSection = ({ content1, content2 }) => {
   return (

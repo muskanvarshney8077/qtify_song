@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+.subwrapper {
+  width: 159px;
+  height: 205px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: var(--color-white);
+}
+.cardimage {
+  width: 159px;
+  height: 170px;
+  flex-shrink: 0;
+}
+.button {
+  display: inline-flex;
+  padding: 4px 8px;
+  align-items: flex-start;
+  gap: 1px;
+  border-radius: 10px;
+  background: var(--color-black);
+}
+.buttonText {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
