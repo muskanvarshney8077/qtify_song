@@ -6,15 +6,15 @@ const heroSection = ({ content1, content2 }) => {
   return (
     <>
       <section className={styles.wrapper}>
-        <div className={styles.content}>
-          <div className={styles.content1}>{content1}</div>
-          <div className={styles.content2}>{content2}</div>
+        <div>
+          <h1>{content1}</h1>
+          <h1>{content2}</h1>
         </div>
-
         <img
           className={styles.image}
           src={HeroSectionLogo}
           alt="herosectionlogo"
+          width={212}
         />
       </section>
     </>

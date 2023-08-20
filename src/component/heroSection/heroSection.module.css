@@ -1,12 +1,21 @@
-.wrapper {
+/* .wrapper {
   width: 799px;
   height: 212px;
   margin-top: 29px;
   margin-left: 327px;
   display: flex;
   align-items: center;
+} */
+.wrapper {
+  height: 212px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  margin-top: 30px;
 }
-.content {
+/* .content {
   width: 556px;
   height: 100px;
   flex-shrink: 0;
@@ -37,4 +46,4 @@
   width: 212px;
   height: 212px;
   flex-shrink: 0;
-}
+} */
