@@ -1,0 +1,6 @@
+.sectionWrapper {
+  flex-direction: column;
+  display: flex;
+  padding: 0px 30px 60px;
+  gap: 32px;
+}

@@ -1,6 +1,7 @@
 import NavBar from "./component/navBar/navBar";
 import HeroSection from "./component/heroSection/heroSection";
-import Card from "./component/card/card";
+import Section from "./component/section/section";
+import styles from "./app.module.css";
 import { fetchTopAlbums } from "./api/api";
 import { useEffect, useState } from "react";
 function App() {
@@ -15,16 +16,16 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <>
       <NavBar />
       <HeroSection
         content1="100 Thousand Songs , ad-free"
         content2=" Over thousands podcast episodes"
       />
-      {topAlbumData.map((ele) => (
-        <Card data={ele} key={ele.id} type="album" />
-      ))}
-    </div>
+      <div className={styles.sectionWrapper}>
+        <Section type="album" title="Top Albums" data={topAlbumData} />
+      </div>
+    </>
   );
 }
 
