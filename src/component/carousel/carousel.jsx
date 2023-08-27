@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-// import Swiper from "swiper";
 import "swiper/css";
 import styles from "./carousel.module.css";
 import { Navigation } from "swiper/modules";

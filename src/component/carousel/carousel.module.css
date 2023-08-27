@@ -3,6 +3,7 @@
 }
 .leftNavigation {
   position: absolute;
+  cursor: pointer;
   left: 10px;
   top: 40%;
   transform: translateY(-50%);
@@ -11,6 +12,7 @@
 .rightNavigation {
   position: absolute;
   right: 10px;
+  cursor: pointer;
   top: 40%;
   transform: translateY(-50%);
   z-index: 10;

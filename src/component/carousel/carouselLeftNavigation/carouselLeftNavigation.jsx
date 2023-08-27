@@ -4,10 +4,10 @@ import { useSwiper } from "swiper/react";
 import styles from "../carousel.module.css";
 const CarouselLeftNavigation = () => {
   const swiper = useSwiper();
-  const [isBegin, setIsBegin] = useState(swiper.isBegining);
+  const [isBegin, setIsBegin] = useState(swiper.isBeginning);
   useEffect(() => {
     swiper.on("slideChange", () => {
-      setIsBegin(swiper.isBegining);
+      setIsBegin(swiper.isBeginning);
     });
   }, []);
   return (
