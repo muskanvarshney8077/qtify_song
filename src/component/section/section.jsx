@@ -10,12 +10,12 @@ const Section = ({
   title,
   data,
   type,
-  filteredData = null,
-  filteredDataValues = [],
-  toggle = false,
-  handleToggle = null,
-  value = "",
-  handleChange = null,
+
+  filteredDataValues,
+  toggle,
+  handleToggle,
+  value,
+  handleChange,
 }) => {
   return (
     <div>

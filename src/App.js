@@ -16,7 +16,7 @@ function App() {
   const [songsData, setSongsData] = useState([]);
 
   const handleToggle = () => {
-    console.log("clicked");
+    console.log("c");
     setToggle(!toggle);
   };
   const handleChange = (event, newValue) => {
@@ -75,6 +75,7 @@ function App() {
     generateNewAlbumData();
     generateAllSongsData();
   }, []);
+  // console.log(toggle);
 
   return (
     <>
